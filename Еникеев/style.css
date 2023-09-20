@@ -1,0 +1,66 @@
+body {
+  background-color: #FF7F50;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+p, h1, h3, #adress, .NT, .NSO, .SB, .NST, .NDO, .Office {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+.Shapka {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.Shapka .Container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  align-items: end;
+  padding: 30px 15px;
+  border-radius: 800px;
+}
+
+.graficlogo {
+  padding: 5px;
+  max-width: 100px;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: auto;
+  width: 800px;
+  height: 100px;
+}
+
+.topnav {
+  background-color: white;
+  font-size: 14px;
+  margin-top: 40px;
+  text-align:right ;
+}
+
+.topnav a {
+  color: #FF7F50;
+  text-align: right;
+  padding: 20px 26px;
+  font-size: 20px;
+
+}
+
+.topnav a:hover {
+  border-bottom: 2px solid #FF7F50;
+}
+Menu {
+  text-align: right;
+}
